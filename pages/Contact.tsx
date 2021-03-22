@@ -1,5 +1,5 @@
 const Contact: React.FC = () => {
-  return <></>;
+  return <h1>Contato</h1>;
 };
 
 export default Contact;

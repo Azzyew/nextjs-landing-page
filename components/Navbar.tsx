@@ -1,20 +1,21 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="flex justify-end pt-6 pr-28 pb-6 bg-pink-300">
+    <div className="flex justify-between pb-4">
       <Link href="/">
-        <a className="pr-10 hover:text-gray-500 transition">Página Inicial</a>
+        <a className="hover:text-copper transition">PÁGINA INICIAL</a>
       </Link>
       <Link href="/products">
-        <a className="pr-10 hover:text-gray-500 transition">Produtos</a>
+        <a className="hover:text-copper transition">PRODUTOS</a>
       </Link>
       <Link href="/info">
-        <a className="pr-10 hover:text-gray-500 transition">Quem Somos</a>
+        <a className="hover:text-copper transition">QUEM SOMOS</a>
       </Link>
       <Link href="/contact">
-        <a className="pr-10 hover:text-gray-500 transition">Contato</a>
+        <a className="hover:text-copper transition">CONTATO</a>
       </Link>
     </div>
   );
